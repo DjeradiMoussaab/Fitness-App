@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD70E4A42A2356710067D6D0 /* Fitness_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD70E4A32A2356710067D6D0 /* Fitness_AppApp.swift */; };
+		BD3A4C8F2A5AE8B7007BF665 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A4C8E2A5AE8B7007BF665 /* PrimaryButton.swift */; };
+		BD3A4C922A5AEAAE007BF665 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A4C912A5AEAAE007BF665 /* Color+Extension.swift */; };
+		BD70E4A42A2356710067D6D0 /* FitnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD70E4A32A2356710067D6D0 /* FitnessApp.swift */; };
 		BD70E4A62A2356710067D6D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD70E4A52A2356710067D6D0 /* ContentView.swift */; };
 		BD70E4A82A2356740067D6D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD70E4A72A2356740067D6D0 /* Assets.xcassets */; };
 		BD70E4AB2A2356740067D6D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD70E4AA2A2356740067D6D0 /* Preview Assets.xcassets */; };
@@ -34,8 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD3A4C8E2A5AE8B7007BF665 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		BD3A4C912A5AEAAE007BF665 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		BD70E4A02A2356710067D6D0 /* Fitness App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fitness App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD70E4A32A2356710067D6D0 /* Fitness_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_AppApp.swift; sourceTree = "<group>"; };
+		BD70E4A32A2356710067D6D0 /* FitnessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessApp.swift; sourceTree = "<group>"; };
 		BD70E4A52A2356710067D6D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD70E4A72A2356740067D6D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD70E4AA2A2356740067D6D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -71,6 +75,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD3A4C902A5AEA90007BF665 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BD3A4C912A5AEAAE007BF665 /* Color+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		BD70E4972A2356710067D6D0 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +106,12 @@
 		BD70E4A22A2356710067D6D0 /* Fitness App */ = {
 			isa = PBXGroup;
 			children = (
-				BD70E4A32A2356710067D6D0 /* Fitness_AppApp.swift */,
+				BD3A4C902A5AEA90007BF665 /* Extensions */,
+				BD70E4A32A2356710067D6D0 /* FitnessApp.swift */,
 				BD70E4A52A2356710067D6D0 /* ContentView.swift */,
 				BD70E4A72A2356740067D6D0 /* Assets.xcassets */,
 				BD70E4A92A2356740067D6D0 /* Preview Content */,
+				BD3A4C8E2A5AE8B7007BF665 /* PrimaryButton.swift */,
 			);
 			path = "Fitness App";
 			sourceTree = "<group>";
@@ -257,8 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD3A4C8F2A5AE8B7007BF665 /* PrimaryButton.swift in Sources */,
 				BD70E4A62A2356710067D6D0 /* ContentView.swift in Sources */,
-				BD70E4A42A2356710067D6D0 /* Fitness_AppApp.swift in Sources */,
+				BD70E4A42A2356710067D6D0 /* FitnessApp.swift in Sources */,
+				BD3A4C922A5AEAAE007BF665 /* Color+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct Fitness_AppApp: App {
+struct FitnessApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LandingView()
         }
     }
 }
