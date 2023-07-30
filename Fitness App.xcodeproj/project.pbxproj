@@ -9,8 +9,11 @@
 /* Begin PBXBuildFile section */
 		BD3A4C8F2A5AE8B7007BF665 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A4C8E2A5AE8B7007BF665 /* PrimaryButton.swift */; };
 		BD3A4C922A5AEAAE007BF665 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A4C912A5AEAAE007BF665 /* Color+Extension.swift */; };
+		BD3A4C962A5C1D71007BF665 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A4C952A5C1D71007BF665 /* CreateView.swift */; };
+		BD3A4C9A2A5C1E88007BF665 /* DropdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A4C992A5C1E88007BF665 /* DropdownView.swift */; };
+		BD3A4C9C2A6030E6007BF665 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A4C9B2A6030E6007BF665 /* TimerView.swift */; };
 		BD70E4A42A2356710067D6D0 /* FitnessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD70E4A32A2356710067D6D0 /* FitnessApp.swift */; };
-		BD70E4A62A2356710067D6D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD70E4A52A2356710067D6D0 /* ContentView.swift */; };
+		BD70E4A62A2356710067D6D0 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD70E4A52A2356710067D6D0 /* LandingView.swift */; };
 		BD70E4A82A2356740067D6D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD70E4A72A2356740067D6D0 /* Assets.xcassets */; };
 		BD70E4AB2A2356740067D6D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD70E4AA2A2356740067D6D0 /* Preview Assets.xcassets */; };
 		BD70E4B52A2356740067D6D0 /* Fitness_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD70E4B42A2356740067D6D0 /* Fitness_AppTests.swift */; };
@@ -38,9 +41,12 @@
 /* Begin PBXFileReference section */
 		BD3A4C8E2A5AE8B7007BF665 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		BD3A4C912A5AEAAE007BF665 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		BD3A4C952A5C1D71007BF665 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		BD3A4C992A5C1E88007BF665 /* DropdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownView.swift; sourceTree = "<group>"; };
+		BD3A4C9B2A6030E6007BF665 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		BD70E4A02A2356710067D6D0 /* Fitness App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fitness App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD70E4A32A2356710067D6D0 /* FitnessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessApp.swift; sourceTree = "<group>"; };
-		BD70E4A52A2356710067D6D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD70E4A52A2356710067D6D0 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		BD70E4A72A2356740067D6D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD70E4AA2A2356740067D6D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD70E4B02A2356740067D6D0 /* Fitness AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fitness AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +89,49 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		BD3A4C932A5C1D33007BF665 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				BD3A4C982A5C1E42007BF665 /* LandingView */,
+				BD3A4C942A5C1D63007BF665 /* CreateView */,
+				BD3A4C9D2A60312E007BF665 /* TimerView */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		BD3A4C942A5C1D63007BF665 /* CreateView */ = {
+			isa = PBXGroup;
+			children = (
+				BD3A4C952A5C1D71007BF665 /* CreateView.swift */,
+			);
+			path = CreateView;
+			sourceTree = "<group>";
+		};
+		BD3A4C972A5C1E3A007BF665 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD3A4C8E2A5AE8B7007BF665 /* PrimaryButton.swift */,
+				BD3A4C992A5C1E88007BF665 /* DropdownView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BD3A4C982A5C1E42007BF665 /* LandingView */ = {
+			isa = PBXGroup;
+			children = (
+				BD70E4A52A2356710067D6D0 /* LandingView.swift */,
+			);
+			path = LandingView;
+			sourceTree = "<group>";
+		};
+		BD3A4C9D2A60312E007BF665 /* TimerView */ = {
+			isa = PBXGroup;
+			children = (
+				BD3A4C9B2A6030E6007BF665 /* TimerView.swift */,
+			);
+			path = TimerView;
+			sourceTree = "<group>";
+		};
 		BD70E4972A2356710067D6D0 = {
 			isa = PBXGroup;
 			children = (
@@ -107,11 +156,11 @@
 			isa = PBXGroup;
 			children = (
 				BD3A4C902A5AEA90007BF665 /* Extensions */,
+				BD3A4C972A5C1E3A007BF665 /* Views */,
+				BD3A4C932A5C1D33007BF665 /* Features */,
 				BD70E4A32A2356710067D6D0 /* FitnessApp.swift */,
-				BD70E4A52A2356710067D6D0 /* ContentView.swift */,
 				BD70E4A72A2356740067D6D0 /* Assets.xcassets */,
 				BD70E4A92A2356740067D6D0 /* Preview Content */,
-				BD3A4C8E2A5AE8B7007BF665 /* PrimaryButton.swift */,
 			);
 			path = "Fitness App";
 			sourceTree = "<group>";
@@ -271,10 +320,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD3A4C9C2A6030E6007BF665 /* TimerView.swift in Sources */,
 				BD3A4C8F2A5AE8B7007BF665 /* PrimaryButton.swift in Sources */,
-				BD70E4A62A2356710067D6D0 /* ContentView.swift in Sources */,
+				BD70E4A62A2356710067D6D0 /* LandingView.swift in Sources */,
 				BD70E4A42A2356710067D6D0 /* FitnessApp.swift in Sources */,
 				BD3A4C922A5AEAAE007BF665 /* Color+Extension.swift in Sources */,
+				BD3A4C962A5C1D71007BF665 /* CreateView.swift in Sources */,
+				BD3A4C9A2A5C1E88007BF665 /* DropdownView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
