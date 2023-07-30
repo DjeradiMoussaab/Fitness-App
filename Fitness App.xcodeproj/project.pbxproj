@@ -19,6 +19,7 @@
 		BD70E4B52A2356740067D6D0 /* Fitness_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD70E4B42A2356740067D6D0 /* Fitness_AppTests.swift */; };
 		BD70E4BF2A2356740067D6D0 /* Fitness_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD70E4BE2A2356740067D6D0 /* Fitness_AppUITests.swift */; };
 		BD70E4C12A2356740067D6D0 /* Fitness_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD70E4C02A2356740067D6D0 /* Fitness_AppUITestsLaunchTests.swift */; };
+		BD7C96832A76629C00E34A69 /* CreateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7C96822A76629C00E34A69 /* CreateViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		BD70E4BA2A2356740067D6D0 /* Fitness AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fitness AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD70E4BE2A2356740067D6D0 /* Fitness_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_AppUITests.swift; sourceTree = "<group>"; };
 		BD70E4C02A2356740067D6D0 /* Fitness_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD7C96822A76629C00E34A69 /* CreateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				BD3A4C952A5C1D71007BF665 /* CreateView.swift */,
+				BD7C96822A76629C00E34A69 /* CreateViewModel.swift */,
 			);
 			path = CreateView;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD7C96832A76629C00E34A69 /* CreateViewModel.swift in Sources */,
 				BD3A4C9C2A6030E6007BF665 /* TimerView.swift in Sources */,
 				BD3A4C8F2A5AE8B7007BF665 /* PrimaryButton.swift in Sources */,
 				BD70E4A62A2356710067D6D0 /* LandingView.swift in Sources */,

@@ -10,7 +10,7 @@ struct TimerView: View {
     var body: some View {
         VStack {
             Spacer()
-            DropdownView()
+            //DropdownView()
             Spacer()
             Button(action:{}) {
                 Text("Create")                            .font(.system(size: 26, weight: .medium))
