@@ -1,4 +1,4 @@
-<img width="302" alt="Screenshot 2024-09-09 at 6 37 11 PM" src="https://github.com/user-attachments/assets/f31c9e96-c639-4ef7-a124-fc5ccae30609"># Fitness-App
+# Fitness-App
 
 ## Previews
 
